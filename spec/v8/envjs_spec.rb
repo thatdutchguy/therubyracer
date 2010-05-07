@@ -14,4 +14,5 @@ describe V8::EnvJS do
     it "has a window" do
       @env.window.should_not be_nil
     end
+    
 end
